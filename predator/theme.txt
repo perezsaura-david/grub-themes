@@ -1,0 +1,41 @@
+title-text: ""
+desktop-image: "predator_right.png"
+terminal-font: "Unifont Regular 16"
+terminal-left: "288"
+terminal-width: "1259"
+
++ label {
+    text = "Select"
+    left = 100
+    top = 650
+    width = 500
+    height = 100
+    font = "Predator Regular 32"
+    color = "#FF0000"
+}
+
++ boot_menu {
+    left = 70
+    top = 700
+    width = 1000
+    height = 600
+    item_spacing = 12
+    item_height = 80
+    item_font = "Predator Regular 32"
+    item_color = "#FF0000"
+    selected_item_font = "JetBrains Mono Bold 24"
+    selected_item_color = "#FFFFFF"
+    selected_item_pixmap_style = "predator_item_*.png"
+    icon_width = 30
+}
+
++ label {
+    id = "__timeout__"
+    text = "%d SECS"
+    left = 600
+    top = 650
+    width = 160
+    height = 65
+    font = "JetBrains Mono Regular 16"
+    color = "#00FF00"
+}
